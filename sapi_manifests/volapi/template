@@ -5,6 +5,10 @@
     "nfsServerImageUuid": "9fb86870-1941-11e6-8002-4f231c890ed1",
     "nfsServer2Enabled": true,
     "nfsServerImageUuid2": "7f4d80b4-9d70-11e9-9388-6b41834cbeeb",
+    "tiers": {
+        "fast": "sdc_volume_nfs_*",
+        "slow": "sdc_volume_nfs_slow_*"
+    },
     "api": {
         "port": 80
     },
